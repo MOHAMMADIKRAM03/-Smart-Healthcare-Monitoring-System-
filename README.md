@@ -64,15 +64,42 @@ health/pulse
 * Blood Pressure Sensor (UART-based)
 * OLED Display (SH1106)
 * Connecting wires & power supply
-![tableopen](https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049)
-<img width="1091" height="700" alt="tableclode" src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" />
-![last](https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d)
-![1](https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0)
-![2](https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39)
-![3](https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc)
-![4](https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33)
-![5](https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae)
-![full](https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="500"/>
+</p>
 
 ---
 
