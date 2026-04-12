@@ -19,9 +19,8 @@ A real-time **IoT-based healthcare monitoring system** using **ESP32 and MQTT** 
 
 ## 🏗️ System Architecture
 
-```text
-Sensors → ESP32 → WiFi → MQTT Broker → Dashboard / Cloud
-```
+<img width="781" height="451" alt="image" src="https://github.com/user-attachments/assets/42536d82-94a4-4c2c-876e-4f29203aee86" />
+<img width="790" height="471" alt="image" src="https://github.com/user-attachments/assets/da9a331c-de9e-427d-b1cc-d249a347df50" />
 
 ---
 
