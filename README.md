@@ -74,10 +74,6 @@ health/pulse
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="500"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="500"/>
 </p>
 
@@ -96,7 +92,9 @@ health/pulse
 <p align="center">
   <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="500"/>
 </p>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="500"/>
+</p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="500"/>
 </p>
