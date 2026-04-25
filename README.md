@@ -160,10 +160,9 @@ ___
   <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="30%"/>
   <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="30%"/>
   <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="30%"/>
-<img width="1811" height="865" alt="image" src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" />
-
-
 </p>
+
+<img width="1811" height="865" alt="image" src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" />
 
 ## 🛠️ Setup Instructions
 
