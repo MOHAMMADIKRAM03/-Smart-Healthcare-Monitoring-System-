@@ -251,7 +251,6 @@ Patient Input (Symptoms + Vitals)
 
 ### Report Output Structure
 
-```
 <img width="581" height="593" alt="1" src="https://github.com/user-attachments/assets/0d3e6ad7-aa0b-409f-bb9c-78daa3050a35" />
 <img width="1034" height="472" alt="2" src="https://github.com/user-attachments/assets/dff30d77-f43c-400b-b5d1-11684a109b94" />
 <img width="1034" height="657" alt="3" src="https://github.com/user-attachments/assets/53d6e376-a9a1-446f-af66-2cc56e817110" />
@@ -259,9 +258,6 @@ Patient Input (Symptoms + Vitals)
 <img width="1051" height="487" alt="5" src="https://github.com/user-attachments/assets/ad253db2-48fb-4f5a-8ff7-916a725894d7" />
 <img width="1029" height="800" alt="6" src="https://github.com/user-attachments/assets/0daefe66-b8a4-4389-a047-2554ceceb2d8" />
 
-
-
-```
 
 ### Multilingual Support
 
