@@ -145,26 +145,26 @@ Jumper wires + power supply
 ### 🔩 Hardware Photos
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="32%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33" width="32%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="30%"/>
-<img width="1811" height="865" alt="image" src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" />
-
-
+  <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="32%"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" width="98%"/>
+</p>
 
 ---
 
