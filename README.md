@@ -66,25 +66,25 @@ ESP32 Sensors  →  MQTT Broker  →  Doctor-AI (LLM + RAG)  →  Patient Report
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        SENSOR LAYER                             │
-│  MAX30102 · MLX90614 · HC-SR04 · UART BP · SH1106 OLED         │
+│  MAX30102 · MLX90614 · HC-SR04 · UART BP · SH1106 OLED          │
 └─────────────────────┬───────────────────────────────────────────┘
                       │ I²C · GPIO · UART
 ┌─────────────────────▼───────────────────────────────────────────┐
 │                   MICROCONTROLLER LAYER                         │
-│         ESP32 / ESP32-S3  ·  Arduino IDE / PlatformIO          │
-│     WiFi Stack · MQTT Client · Signal Processing · JSON        │
+│         ESP32 / ESP32-S3  ·  Arduino IDE / PlatformIO           │
+│     WiFi Stack · MQTT Client · Signal Processing · JSON         │
 └─────────────────────┬───────────────────────────────────────────┘
                       │ 802.11 WiFi · TCP/IP
 ┌─────────────────────▼───────────────────────────────────────────┐
 │                      NETWORK LAYER                              │
-│      WiFi Router → MQTT Broker (Mosquitto / HiveMQ)            │
-│   health/hr · health/spo2 · health/temp · health/height        │
-│           health/sys · health/dia · health/pulse               │
+│      WiFi Router → MQTT Broker (Mosquitto / HiveMQ)             │
+│   health/hr · health/spo2 · health/temp · health/height         │
+│           health/sys · health/dia · health/pulse                │
 └─────────────────────┬───────────────────────────────────────────┘
                       │ MQTT Subscribe
 ┌─────────────────────▼───────────────────────────────────────────┐
 │                    APPLICATION LAYER                            │
-│  Doctor-AI (LLM + RAG)  ·  Node-RED  ·  InfluxDB  ·  Firebase │
+│  Doctor-AI (LLM + RAG)  ·  Node-RED  ·  InfluxDB  ·  Firebase   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
