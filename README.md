@@ -141,6 +141,8 @@ Jumper wires + power supply
 | HC-SR04 | GPIO | TRIG=5, ECHO=18 |
 | UART BP Module | UART | TX=17, RX=16 |
 | SH1106 OLED | I²C | SDA=21, SCL=22 |
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="30%"/>
   <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="30%"/>
@@ -161,7 +163,6 @@ Jumper wires + power supply
 
 
 </p>
----
 
 ## 🛠️ Setup Instructions
 
