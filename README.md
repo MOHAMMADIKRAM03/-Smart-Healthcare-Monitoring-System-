@@ -84,7 +84,6 @@ health/pulse
 
 
 </p>
----
 
 ## 🛠️ Software Requirements
 
