@@ -123,12 +123,12 @@ health/pulse   →  72        (Pulse per min)
 ## ⚙️ Hardware Requirements
 
 ```
-ESP32 / ESP32-S3          — Main microcontroller + WiFi
-MAX30102                  — Heart rate & SpO₂ (I²C)
-MLX90614                  — Non-contact IR temperature (I²C)
-HC-SR04                   — Ultrasonic height sensor (GPIO)
+ESP32 / ESP32-S3           — Main microcontroller + WiFi
+MAX30102                   — Heart rate & SpO₂ (I²C)
+MLX90614                   — Non-contact IR temperature (I²C)
+HC-SR04                    — Ultrasonic height sensor (GPIO)
 UART Blood Pressure Module — Automatic BP cuff (UART)
-SH1106 OLED (128×64)      — Local display (I²C)
+SH1106 OLED (128×64)       — Local display (I²C)
 Jumper wires + power supply
 ```
 
@@ -142,28 +142,31 @@ Jumper wires + power supply
 | UART BP Module | UART | TX=17, RX=16 |
 | SH1106 OLED | I²C | SDA=21, SCL=22 |
 
-___
+### 🔩 Hardware Photos
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/20bb7c28-d9a5-439c-acc4-0ec342681049" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/4877eb44-01be-4054-83da-f8ccb4ab23b2" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/86699231-e373-46c9-b9b7-da4e093c03c0" width="32%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/c7d667cd-b7f6-4f46-936b-def0ea22bb39" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/64674867-4509-4722-943c-e29b9bb435dc" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/9c3db8e6-6cae-43ac-a56b-0ad9b604fd33" width="32%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="30%"/>
-  <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="30%"/>
-  <img width="1811" height="865" alt="image" src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" />
+  <img src="https://github.com/user-attachments/assets/365c0601-4a97-4665-9774-15362eb727ae" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/34708ba0-b20e-402b-907a-70089b97281d" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/9442b2e9-410e-4d08-b6eb-e36fbf8d964b" width="32%"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/49e85353-bd05-4875-8b2c-633b152bf111" width="98%"/>
+</p>
 
+---
 
 ## 🛠️ Setup Instructions
 
@@ -229,6 +232,12 @@ BP     : 120/80 mmHg
 
 The AI layer receives real-time vitals over MQTT and powers a conversational medical assistant.
 
+### AI Pipeline
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df959d91-201e-42fd-88d6-42ba6da841e3" width="98%"/>
+</p>
+
 ```
 Patient Input (Symptoms + Vitals)
          │
@@ -245,23 +254,41 @@ Patient Input (Symptoms + Vitals)
          │
          ▼
   Diagnosis & Advice  ──►  Report Generation
-<img width="1034" height="423" alt="s" src="https://github.com/user-attachments/assets/df959d91-201e-42fd-88d6-42ba6da841e3" />
-
 ```
-
-### Report Output Structure
-
-<img width="581" height="593" alt="1" src="https://github.com/user-attachments/assets/0d3e6ad7-aa0b-409f-bb9c-78daa3050a35" />
-<img width="1034" height="472" alt="2" src="https://github.com/user-attachments/assets/dff30d77-f43c-400b-b5d1-11684a109b94" />
-<img width="1034" height="657" alt="3" src="https://github.com/user-attachments/assets/53d6e376-a9a1-446f-af66-2cc56e817110" />
-<img width="1047" height="500" alt="4" src="https://github.com/user-attachments/assets/de9ad1b1-fdf6-43ad-9ae4-c4b8d989353d" />
-<img width="1051" height="487" alt="5" src="https://github.com/user-attachments/assets/ad253db2-48fb-4f5a-8ff7-916a725894d7" />
-<img width="1029" height="800" alt="6" src="https://github.com/user-attachments/assets/0daefe66-b8a4-4389-a047-2554ceceb2d8" />
-
 
 ### Multilingual Support
 
 The Doctor-AI understands and responds in both **English** and **Telugu** — making it accessible for patients across Andhra Pradesh and Telangana regions.
+
+---
+
+## 📸 App Screenshots
+
+### 🔐 Login & Dashboard
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0d3e6ad7-aa0b-409f-bb9c-78daa3050a35" width="32%"/>
+  <img src="https://github.com/user-attachments/assets/dff30d77-f43c-400b-b5d1-11684a109b94" width="64%"/>
+</p>
+
+### 🧪 Enter Vitals
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/53d6e376-a9a1-446f-af66-2cc56e817110" width="98%"/>
+</p>
+
+### 💬 Consult Doctor-AI (Multilingual Chat)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de9ad1b1-fdf6-43ad-9ae4-c4b8d989353d" width="49%"/>
+  <img src="https://github.com/user-attachments/assets/ad253db2-48fb-4f5a-8ff7-916a725894d7" width="49%"/>
+</p>
+
+### 📋 Medical Assessment Report
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0daefe66-b8a4-4389-a047-2554ceceb2d8" width="98%"/>
+</p>
 
 ---
 
